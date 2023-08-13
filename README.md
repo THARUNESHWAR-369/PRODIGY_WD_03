@@ -23,6 +23,9 @@ Welcome to the Tic-Tac-Toe web application! This project demonstrates a simple i
 4. Aim to get three of your markers in a row either diagonally, horizontally, or vertically.
 5. The game will display a winning message when a player wins, or a draw message when no player wins.
 
+## Preview
+
+![Tic-Tac-Toe Preview](path/to/preview.png)
 
 ## Try It Out
 
