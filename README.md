@@ -24,8 +24,7 @@ Welcome to the Tic-Tac-Toe web application! This project demonstrates a simple i
 5. The game will display a winning message when a player wins, or a draw message when no player wins.
 
 ## Preview
-
-![Tic-Tac-Toe Preview](path/to/preview.png)
+![Tic-Tac-Toe Preview](https://github.com/THARUNESHWAR-369/PRODIGY_WD_03/assets/84437531/cff04aa5-910f-4827-861e-b05b1a81cd21)
 
 ## Try It Out
 
