@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe Web App</title>
+</head>
+
+<body>
+    <h1>Tic Tac Toe Game</h1>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-container">
+              <div class="menu-options">
+                <span>Current Player : <p id="currentPlayer">X</p></span>
+                <span id="reset">Reset</span>
+              </div>
+              <div class="winner-container">
+                <p>Winner: <span id="winner" class="winner-failure-color">None</span></p>
+              </div>
+            </div>
+        </div>
+        <div class="tic-tac-toe">
+            <div class="row">
+                <div id="cell-1" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-2" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-3" class="cell" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div id="cell-4" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-5" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-6" class="cell" onclick="handleClick(this)"></div>
+            </div>
+            <div class="row">
+                <div id="cell-7" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-8" class="cell" onclick="handleClick(this)"></div>
+                <div id="cell-9" class="cell" onclick="handleClick(this)"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>Copyrights &copy; 2023 | Tharuneshwar S</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
